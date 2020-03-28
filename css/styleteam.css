@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Carter+One&display=swap');
+
+
+
+
+*{
+	box-sizing: border-box;
+}
+
+.team-container{
+	max-width:1320px;
+    margin: auto;
+    position: relative;
+}
+
+.team{
+	min-height: 100vh;
+	background-color:#262431; 
+	width: 100%;
+}
+.team h1{
+	font-size: 45px;
+	font-family: carter one;
+	font-weight: 700;
+	color:#ffffff;
+	margin:0;
+    padding-top: 20px;
+	padding-bottom:60px;
+	text-align: center;
+}
+.team .cardd{
+	width:33%;
+	float: left;
+	padding:20px 50px;
+}
+.team .cardd .box {
+	padding:15px;
+	background-color: #2d3035;
+	border-radius:5px;
+	transition: margin 1s ease,box-shadow 1s ease;
+}
+.team .cardd .box:hover{
+	margin-top:-15px;
+	box-shadow:0px 0px 40px black;
+}
+.team .cardd .box img{
+	width:240px;
+	display: block;
+	margin:10px auto;
+	border-radius:50%;
+
+}
+
+.team .cardd .box h4{
+	font-size: 20px;
+	font-family: open sans;
+	margin:50px 0px 20px;
+	color:#2196F3;
+	text-align: center;
+	font-weight: 1000;
+}
+
+.team .cardd .box h5{
+	font-size:16px;
+	font-family: open sans;
+	font-weight: 600;
+	color:#b9b9b9;
+	margin:0px 0px 20px;
+	text-align: center;
+}
+.team .cardd .box p{
+	color:#b9b9b9;
+	font-size: 15px;
+	font-family: open sans;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: center;
+	padding:0px 20px;
+}
+
+
+
+/*responsive*/
+
+@media(max-width: 991px){
+	.team .cardd{
+		width:50%;
+		margin-bottom:30px;
+	}
+}
+
+@media(max-width:550px){
+	.team .cardd{
+		width:100%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
