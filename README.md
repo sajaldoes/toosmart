@@ -1,4 +1,4 @@
-# toosmart
+# TooSmart
 TooSmart App website
 
 Quickly capture what’s on your mind and get a reminder later at the right place or time..
